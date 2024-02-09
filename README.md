@@ -39,8 +39,6 @@ We can use the following code with nested `setTimeout` instead of `setInterval`
 
 If we want to wait for the `main` function to complete before starting the next one
 
-because `setInterval` will start the next function even if the previous one is still running.
-
 ```javascript
 setTimeout(function nestedFunction() {
    main();
